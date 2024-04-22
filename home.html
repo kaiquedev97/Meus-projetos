@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Home</title>
+    <style></style>
+</head>
+<body>
+    <div class="divcentralizado" > 
+    <img id="imagemperfil" width="310px"    src="imagens/bmw.jpg" alt="imagem bmw">
+    </div>
+    <div class="divcentralizado" >
+    <h1  >Inscrição pra um Concurso de Física</h1>
+    </div>
+    <form action="http://ww.google.com.br"target= _blank>
+        <div class="divtexto">
+        <label for="inputnome">Nome:</label><br>
+        <input class="inputsminhatela" style="width: 50%;" type="text"  id="inputnome" name="inputnome"placeholder="Digite seu nome" required ><br>
+        </div>
+        <div class="divtexto">
+            <label for="inputemail">Email:</label><br>
+            <input class="inputsminhatela"   type="email" placeholder="Digite seu email" id="inputemail" > 
+        </div>
+             <div>
+                <label for="inputdatanascimento"Data de nascimento></label><br>
+                <input class="inputsminhatela" type="date" name="inputdatanascimento" id="inputdatanascimento"> 
+             </div>
+     
+     <div class="divtexto">
+            <label for="inputfile">Upload do RG</label><br>
+            <input type="file" id="inputfile"  name="inputfile" required >
+        </div>
+        <div class="divtexto">
+        <label for="inputtelefone">Telefone</label><br>
+        <input  class="inputsminhatela"     type="tel" name="inputtelefone" id="inputtelefone">
+
+     </div >
+     <div class="divtexto">
+        <label for="inputcorfavorita">selicione sua cor favorita</label><br>
+        <input type="color" name="inputcorfavorita" id="inputcorfavorita">
+     </div>
+         <div class="divtexto">
+         <label for="inputidade">Digite a sua idade</label><br>
+         <input class="inputsminhatela"   type="number" name="inputidade" id="inputidade" min="18" max="55">
+        </div>
+        <div class="divtexto">
+            <label for="inputsenha">digite sua senha</label><br>
+            <input class="inputsminhatela"  type="password" minlength="8"     name="inputsenha" id="inputsenha" required>
+</div>
+<div class="divtexto">
+    <label for="inputlistturma">selecione uma turma</label><br>
+    <input  class="inputsminhatela"list="turmas">
+    <datalist  id="turmas">
+        <option value="manhã"></option>
+        <option value="tarde"></option>
+        <option value="noite"></option>
+        <option value="sabado"></option>
+    </datalist>
+</div>
+<div class="divtexto">
+    <h3>Refeições do dia </h3>
+    <input   type="checkbox" name="inputcheckboxref1" id="inputcheckboxref1" value="café"><label for="">
+     <label for="inputcheckboxref1"> Café da manhã</label><br>
+     <input type="checkbox" name="inputcheckboxref2" id="inputcheckboxref2" value="almoco">   
+     <label for="inputcheckboxref2">Almoço</label><br>
+     <input type="checkbox" name="inputcheckboxref3" id="inputcheckboxref3" value="janta"> 
+      <label for="inputcheckboxref3">Janta</label>
+</div>
+<div class="divtexto">
+    <h3>Estado Civil</h3>
+    <input type="radio" name="inputradio1" id="inputradio1"   value="solteiro">
+    <label for="inputradio1">Solteiro</label><br>
+    <input type="radio" name="inputradio2" id="inputradio2"  value="casado">
+    <label for="inputradio2">Casado</label><br>
+    <input type="radio" name="inputradio3" id="inputradio3" value="viúvo">
+    <label for="inputradio3">Viúvo</label>
+
+
+</div>
+<div class="divtexto">
+    <label for="diastrabalho">Dias que você trabalha</label>
+    <select name="diastrabalho" id="diastrabalho">
+    <option value="Segunda">Segunda</option>
+    <option value="Terça">Terça</option>
+    <option value="Quarta">Quarta</option>
+    <option value="nenhum" selected="true">Selecione uma opção</option>
+</select>
+
+</div>
+
+     <div class="divtexto">
+        <input type="submit" value="Cadastrar">
+        </div>
+     </form>
+
+     <BUtton type="button" onclick="alert('Olá Mundo')">Testar JavaScript</BUtton>
+     </body>
+     </html>
